@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+input[type=text], input[type=password] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  left:500px;
+  border-radius:10px;
+}
+
+#btn {
+  background-color: #44d0fa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  position: relative;
+  left:700px;
+  border-radius:7px;
+}
+
+#btn:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
