@@ -73,7 +73,9 @@ function showInfo(){
         
         var d= document.getElementById("tptotal");
         d.innerHTML = proUnit*objProduct[i].pprice;
-
+        
+        var f= document.getElementById("totalPrice");
+        f.innerHTML = proUnit*objProduct[i].pprice;
         temp=1;
       } 
     }
@@ -83,4 +85,7 @@ function showInfo(){
 }
 
 
-
+function completeShop(){
+ 
+    var myWindow = window.open("price.html", "", "width=500,height=500");
+}
