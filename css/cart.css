@@ -1,4 +1,4 @@
-h2{
+h1{
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -99,4 +99,16 @@ input[type=text], input[type=password]{
   display: inline;
   align-items: center;
   margin-right: 160px;
+}
+
+
+
+.footer{
+  position: relative;
+  left:550px;
+  top: 400px;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
 }
