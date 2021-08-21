@@ -112,3 +112,28 @@ input[type=text], input[type=password]{
   text-decoration: none;
   color: black;
 }
+
+.container-cart-total{
+  position: relative; 
+  left: 900px; 
+  top: auto;
+}
+.container-cart-total ul{
+  list-style: none; 
+}
+.container-cart-total ul li{
+  display: inline;
+  margin-right: 50px;
+}
+#btnCom{
+  background-color: #44d0fa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  position: relative;
+  left:1200px;
+  border-radius:7px;
+}
