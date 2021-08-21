@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/cart.css">
     <script src="js/cart.js"></script>
-    <script src="js/script.js"></script>
     <script src="js/logout.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +20,12 @@
     <form action="" method="post">
         <div class="container">
           <label for="uname" style="position: relative; left:180px"><b>Product Code</b></label>
-          <input type="text" placeholder="Enter Product Code" name="uname" id="username">
+          <input type="text" placeholder="Enter Product Code" name="uname" id="proId">
         
           <label for="psw" style="position: relative; left:220px"><b>Total Units</b></label>
           <input type="password" placeholder="Enter Total Units" name="password" id="password" style="position: relative; left:230px">
         
-          <input type="button" name="btn" id="btn" value="Get Details" onclick="" />
+          <input type="button" name="btn" id="btn" value="Get Details" onclick="showInfo()" />
         </div>
     </form>
 </body>
