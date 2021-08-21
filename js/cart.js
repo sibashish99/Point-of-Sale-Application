@@ -1,10 +1,9 @@
-//product details
+
 var objProduct=[
     {
       pid:"p001",
       pname: "Tide Plus Double Power Lemon & Mint Detergent Powder",
       pprice: 45
-     
     },
     {
         pid:"p002",
@@ -49,15 +48,32 @@ var objProduct=[
         pname: "Mother's Choice American Almonds",
         pprice: 199
     },
-
-  ]
-  function showInfo(){
+];
+function showInfo(){
     var proId= document.getElementById("proId").value;
     var proUnit= document.getElementById("pUnit").value;
     var temp=0;
     for(i=0 ;i<objProduct.length;i++){
       if(proId == objProduct[i].pid){
-        alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice+", total units "+proUnit +", total price "+proUnit*objProduct[i].pprice);
+
+        //alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice+", total units "+proUnit +", total price "+proUnit*objProduct[i].pprice);
+        alert("New product added")
+        var a= document.getElementById("tpname");
+        a.innerHTML = objProduct[i].pname;
+    
+        var b= document.getElementById("tpid");
+        b.innerHTML = objProduct[i].pid;
+
+        var e= document.getElementById("tunit")
+        e.innerHTML = proUnit;
+    
+        var c= document.getElementById("tpprice");
+        c.innerHTML = objProduct[i].pprice;
+    
+        
+        var d= document.getElementById("tptotal");
+        d.innerHTML = proUnit*objProduct[i].pprice;
+
         temp=1;
       } 
     }
@@ -65,4 +81,6 @@ var objProduct=[
         alert("WRONG PRODUCT"); 
     }
 }
+
+
 
