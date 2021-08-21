@@ -18,7 +18,7 @@ h2{
     height: 40px;
     border-radius:5px;
 }
-#btn:hover{
+#btnlog:hover{
     opacity:0.8;
 }
 
@@ -40,7 +40,7 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 200px;
+    width: 120px;
     position: relative;
     left:300px;
     border-radius:7px;
