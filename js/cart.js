@@ -56,7 +56,7 @@ var objProduct=[
     
     for(i=0 ;i<objProduct.length;i++){
       if(proId == objProduct[i].pid){
-        //alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice);
+        alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice);
       } 
     }
   
