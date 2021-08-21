@@ -79,3 +79,24 @@ input[type=text], input[type=password]{
   align-items: center;
   margin-right: 150px;
 }
+
+.container-cart-details{
+  margin: 8px 10px;
+  position: relative;
+  left:130px
+}
+
+.container-cart-details ul{
+  list-style: none;
+  padding: 0;
+  margin: 0px 40px; 
+  align-items: center;
+}
+.container-cart-details  ul li{
+  border: none;
+  border-radius:10px;
+  text-decoration: none;
+  display: inline;
+  align-items: center;
+  margin-right: 160px;
+}
