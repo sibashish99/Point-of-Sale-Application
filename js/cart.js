@@ -53,16 +53,16 @@ var objProduct=[
   ]
   function showInfo(){
     var proId= document.getElementById("proId").value;
+    var proUnit= document.getElementById("pUnit").value;
     var temp=0;
     for(i=0 ;i<objProduct.length;i++){
       if(proId == objProduct[i].pid){
-        alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice);
+        alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice+", total units "+proUnit +", total price "+proUnit*objProduct[i].pprice);
         temp=1;
-      }
+      } 
     }
     if(temp==0){
-        alert("WRONG PRODUCT ID"); 
+        alert("WRONG PRODUCT"); 
     }
-   
-  
 }
+
