@@ -22,14 +22,14 @@ h2{
     opacity:0.8;
 }
 
-input[type=text], input[type=password] {
+input[type=text] {
     width: 300px;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
     box-sizing: border-box;
     position: relative;
-    left:200px;
+    left:520px;
     border-radius:10px;
   }
   
@@ -42,7 +42,7 @@ input[type=text], input[type=password] {
     cursor: pointer;
     width: 120px;
     position: relative;
-    left:300px;
+    left:540px;
     border-radius:7px;
   }
   
