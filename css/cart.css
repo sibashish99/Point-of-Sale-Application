@@ -135,5 +135,6 @@ input[type=text], input[type=password]{
   width: 120px;
   position: relative;
   left:1200px;
+  top:300px;
   border-radius:7px;
 }
