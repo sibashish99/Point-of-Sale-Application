@@ -1,53 +1,56 @@
 
 var objProduct=[
     {
+        pid:"p000",
+        pname: "Tiger Detergent Powder",
+        pprice: 45
+      
+    },
+    {
       pid:"p001",
-      pname: "Tide Plus Detergent Powder",
+      pname: "Tide Detergent Powder",
       pprice: 45
     },
     {
         pid:"p002",
-        pname: "Fortune Rice Bran Oil (Jar)",
+        pname: "Fortune Rice BranOil ",
         pprice: 345
     },
     {
         pid:"p003",
-        pname: "Mother's Choice Kachi Ghani Mustard Oil",
+        pname: "Kachi Ghani MustardOil",
         pprice: 142
     },
     {
         pid:"p004",
-        pname: "Paras Desi Ghee (Carton)",
+        pname: "new Paras Desi Ghee",
         pprice: 245
     }, 
     {
         pid:"p005",
-        pname: "Rajdhani Besan",
+        pname: "new Rajdhani Besan",
         pprice: 741
     },
     {
         pid:"p006",
-        pname: "24 Mantra Organic Sonamasuri Rice",
+        pname: "Organic Sonamasuri Rice",
         pprice: 347
     },
     {
         pid:"p007",
-        pname: "Organic India Cow Ghee",
+        pname: "Organic India CowGhee",
         pprice: 645
     },
     {
         pid:"p008",
-        pname: "Mother's Choice Pumpkin Seeds",
+        pname: "Choice Pumpkin Seeds",
         pprice: 195
-    },{
-        pid:"p009",
-        pname: "Nutrela Mini Soya Chunks",
-        pprice: 55
-    },{
-        pid:"p010",
-        pname: "Mother's Choice American Almonds",
-        pprice: 199
     },
+    {
+        pid:"p009",
+        pname: "Nutrela Soya Chunks",
+        pprice: 55
+    }
 ];
 function showInfo(){
     var proId= document.getElementById("proId").value;
