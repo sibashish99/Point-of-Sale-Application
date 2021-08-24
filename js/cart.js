@@ -1,4 +1,4 @@
-
+// objProduct stores the product info as object
 var objProduct=[
     {
         pid:"p000",
@@ -52,6 +52,11 @@ var objProduct=[
         pprice: 55
     }
 ];
+
+//implementing the showInfo() function for display the product info
+/*first will iterate through the objProduct object if the proId matches the pid of the product then store information
+as array and treverse the array to put data into cart.js*/
+
 function showInfo(){
     var proId= document.getElementById("proId").value;
     var proUnit= document.getElementById("pUnit").value;
@@ -61,25 +66,6 @@ function showInfo(){
 
         //alert("Product "+objProduct[i].pname+", price "+objProduct[i].pprice+", total units "+proUnit +", total price "+proUnit*objProduct[i].pprice);
         //alert("New product added")
-        // var a= document.getElementById("tpname");
-        // a.innerHTML = objProduct[i].pname;
-    
-        // var b= document.getElementById("tpid");
-        // b.innerHTML = objProduct[i].pid;
-
-        // var e= document.getElementById("tunit")
-        // e.innerHTML = proUnit;
-    
-        // var c= document.getElementById("tpprice");
-        // c.innerHTML = objProduct[i].pprice;
-    
-        
-        // var d= document.getElementById("tptotal");
-        // d.innerHTML = proUnit*objProduct[i].pprice;
-        
-        // var f= document.getElementById("totalPrice");
-        // f.innerHTML = proUnit*objProduct[i].pprice;
-
 
         var arr = [ objProduct[i].pname , objProduct[i].pid , proUnit , objProduct[i].pprice , proUnit*objProduct[i].pprice];
         var cont = document.getElementById('container-cart-main');
@@ -109,8 +95,10 @@ function showInfo(){
     }
 }
 
-
+//implement completeShop() function for complete the shopping and redirect to the price.html page
 function completeShop(){
- 
-    var myWindow = window.open("price.html", "", "width=500,height=500");
+    var myWindow = window.open("price.html", "", "width=1000,height=1000");
 }
+
+
+
