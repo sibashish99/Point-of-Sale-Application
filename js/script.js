@@ -1,4 +1,4 @@
-
+// objAdmin stores the admin info as object
 var objAdmin=[
   {
     username: "admin001",
@@ -22,6 +22,7 @@ var objAdmin=[
   }
 ]
 
+// implement getInfo() to loged in to asmin page
  function getInfo(){
     var username= document.getElementById("username").value;
     var password= document.getElementById("password").value;
