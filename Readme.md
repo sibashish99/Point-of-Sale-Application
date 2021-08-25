@@ -30,14 +30,14 @@ Redirect to index.html file and you can add new features.
 
 |   Product ids |  
 | ------------- | 
-|   pro000      |
-|   pro001      | 
-|   pro002      | 
-|   pro003      | 
-|   pro004      | 
-|   pro005      | 
-|   pro006      | 
-|   pro007      | 
-|   pro008      | 
-|   pro009      | 
+|   p000      |
+|   p001      | 
+|   p002      | 
+|   p003      | 
+|   p004      | 
+|   p005      | 
+|   p006      | 
+|   p007      | 
+|   p08      | 
+|   p009      | 
 
