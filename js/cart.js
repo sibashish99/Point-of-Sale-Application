@@ -85,14 +85,16 @@ function showInfo(){
   
         cont.appendChild(ul); // add list to the container.
 
-
-
         temp=1;
+
+         allData( objProduct[i].pname , objProduct[i].pid , proUnit , objProduct[i].pprice , proUnit*objProduct[i].pprice);
+       
       } 
     }
     if(temp==0){
         alert("WRONG PRODUCT"); 
     }
+    
 }
 
 //implement completeShop() function for complete the shopping and redirect to the price.html page
@@ -105,5 +107,45 @@ function completeShop(){
 function newInfo(){
     document.getElementById("demo").innerHTML = Math.floor((Math.random()*100 + 1)*51226);
     document.getElementById("demo1").innerHTML = new Date();
+    allData(); 
 }
 window.onload = newInfo;
+
+
+
+
+
+
+
+function allData(a,b,c,d,e){
+
+    // var proName = document.getElementById("pName").value;
+    // var proId = document.getElementById("proId").value;
+    // var proUnit = document.getElementById("pUnit").value;
+    // var proPrice = document.getElementById("pPrice").value;
+    // var proTotal = document.getElementById("pTotal").value;
+
+    
+    var proName = a;
+    var proId =b;
+    var proUnit =c; 
+    var proPrice = d;
+    var proTotal = e;
+
+    var arr = [ proName , proId , proUnit , proPrice , proTotal];
+    var cont = document.getElementById('container-cart-main-price');
+    var ul = document.createElement('ul');
+    ul.setAttribute('style', 'padding: 5px; margin: 0; position:relative; top:130px; left:100px;');
+    ul.setAttribute('id', 'theList');
+
+    for (i = 0; i <= arr.length; i++) {
+        var li = document.createElement('li');  // create li element.
+        li.innerHTML = arr[i];     
+        li.setAttribute('style', 'display: inline; margin-right: 180px;');   
+
+        ul.appendChild(li); // append li to ul.
+    }
+
+    cont.appendChild(ul); // add list to the container.
+}
+       
