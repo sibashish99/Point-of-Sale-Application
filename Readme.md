@@ -38,6 +38,6 @@ Redirect to index.html file and you can add new features.
 |   p005      | 
 |   p006      | 
 |   p007      | 
-|   p08      | 
+|   p08       | 
 |   p009      | 
 
