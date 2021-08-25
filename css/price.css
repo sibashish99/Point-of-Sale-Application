@@ -10,3 +10,33 @@
     left: 850px;
     top: 5px;
 }
+
+.container-cart1{
+    background-color: #44d0fa;
+    color: white;
+    padding: 16px;
+    margin: 8px 40px;
+    border: none;
+    border-radius:10px;
+    width: 800px;
+    position: relative;
+    left:40px;
+    top: 130px;
+  }
+  .container-cart1  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px 5px; 
+    align-items: center;
+  }
+  .container-cart1  ul li{
+    border: none;
+    border-radius:10px;
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    margin-right: 130px;
+  }
+  
+
+  
