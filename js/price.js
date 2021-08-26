@@ -8,20 +8,21 @@ window.onload = newInfo;
 
 function completeShop(){
 
-var x = localStorage.getItem("id");
-var y = localStorage.getItem("price");
-var z = localStorage.getItem("unit");
-var w = localStorage.getItem("total");
 
-var arr = [ x , y , z , w ];
+narr[0] = localStorage.getItem("id");
+narr[1] = localStorage.getItem("price");
+narr[2] = localStorage.getItem("unit");
+narr[3] = localStorage.getItem("total");
+
+
 var cont = document.getElementById('container-cart-main-price');
 var ul = document.createElement('ul');
 ul.setAttribute('style', 'padding: 5px; margin: 0; position:relative; top:130px; left:100px;');
 ul.setAttribute('id', 'theList');
 
-for (i = 0; i <= arr.length; i++) {
+for (i = 0; i <= narr.length; i++) {
     var li = document.createElement('li');  // create li element.
-    li.innerHTML = arr[i];     
+    li.innerHTML = narr[i];     
     li.setAttribute('style', 'display: inline; margin-right: 180px;');   
 
     ul.appendChild(li); // append li to ul.
