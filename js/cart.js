@@ -86,11 +86,14 @@ function showInfo(){
         
        
         temp=1;
+ 
+      
        
         localStorage.setItem('id',arr[1]);
         localStorage.setItem('price', arr[3]);
         localStorage.setItem('unit', arr[2]);   
         localStorage.setItem('total', arr[4]);
+        
       } 
     }
     if(temp==0){
